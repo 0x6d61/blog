@@ -1,4 +1,5 @@
 :title 祝!ShellScriptでブログ開設
+:create 2020-05-06 13:27:08
 :create 2020-05-06 13:26:20
 
 :body
