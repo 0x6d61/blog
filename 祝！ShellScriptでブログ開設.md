@@ -1,14 +1,14 @@
 :title 祝!ShellScriptでブログ開設
-:create 2020-05-06 13:17:21
+:create 2020-05-06 13:26:20
 
 :body
 
-自粛期間でGWは暇だったのとbashCMSに影響を受けてShellScriptでブログを作成しました。
+自粛期間でGWは暇だったのとbashCMSに影響を受けてShellScriptでブログを作成しました。  
 
 ### インフラ周り
 AWS EC2でnginxを動かしています。ドメインはroute53で  
 取得しました。自作コマンドのbpostでblog記事の投稿はscpでサーバに直接アップロードしています。  
-バックアップとしてblog投稿時にgithubにあるリポジトリへpushしています。
+バックアップとしてblog投稿時にgithubにあるリポジトリへpushしています。  
 
 ### blog本体
 すべてShellScriptで作成しています。cgiのqueryを取得する部分は  
