@@ -1,4 +1,5 @@
 :title covid-19の情報をShellScriptでスクレイピングしてtweetする
+:create 2020-05-08 18:16:54
 :create 2020-05-08 17:01:28
 
 :body
@@ -68,4 +69,5 @@ tweetする部分は日本シェルショッカー日本支部様の小鳥男を
 0 10 * * * /home/ubuntu/covid19.sh | /home/ubuntu/kotoriotoko/BIN/tweet.sh
 ```
 
+互換性とか完全に無視してる  
 ShellScript便利！
